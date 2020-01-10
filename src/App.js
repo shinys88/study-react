@@ -11,16 +11,16 @@ function App() {
 		text2 = "변경";
 	}
 
-  let t1 = undefined;
-  
-  const style1 = {
-    backgroundColor:'yellow',
-    color:'#000',
-    marginTop:'20px',
-    padding:20  //단위 생략시 px로 지정
-  }
+	let t1 = undefined;
 
-  let classNm = 'indexCss';
+	const style1 = {
+		backgroundColor: "yellow",
+		color: "#000",
+		marginTop: "20px",
+		padding: 20 //단위 생략시 px로 지정
+	};
+
+	let classNm = "indexCss";
 
 	return (
 		// jsx 테스트0 = ||(or연산자) undefined 조건부
@@ -58,22 +58,27 @@ function App() {
 						Learn React
 					</a>
 
-          <div style={{
-            backgroundColor:'#eee', //jsx : 카멜 표기법으로 사용
-            color:'#333'
-          }}>태그에 바로 스타일 지정 테스트1</div>
+					<div
+						style={{
+							backgroundColor: "#eee", //jsx : 카멜 표기법으로 사용
+							color: "#333"
+						}}
+					>
+						태그에 바로 스타일 지정 테스트1
+					</div>
 
-          <div style={style1}>
-            스크립트에서 불러오는 인라인 스타일링 테스트
-          </div>
+					<div style={style1}>
+						스크립트에서 불러오는 인라인 스타일링 테스트
+					</div>
 
-          <div className="indexCss test1">
-            index.css에서 클래스 스타일 추가해보기 + 여러개 클래스 추가
-          </div>
+					<div className="indexCss test1">
+						index.css에서 클래스 스타일 추가해보기 + 여러개 클래스
+						추가
+					</div>
 
-          <div className={'test2 '+classNm}>
-            자바스크립트 변수로 class 추가하기
-          </div>
+					<div className={"test2 " + classNm}>
+						자바스크립트 변수로 class 추가하기
+					</div>
 				</header>
 			</>
 		)
