@@ -10,9 +10,13 @@
 ### 작업 환경
 ```
 OS : MacOS
+Tool : VS Code
+
+React (v16.12.0)
+
 nvm (v0.33.2)
 node.js LTS (v12.14.1)
-Homebrew (v2.2.2)
+brew (v2.2.2)
 yarn (v1.21.1)
 ```
 
