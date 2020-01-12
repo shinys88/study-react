@@ -50,4 +50,11 @@ yarn (v1.21.1)
 - state와 라이프사이클 API의 사용이 불가능하다.(리액트 v16.8 이후 Hooks라는 기능이 도입되면서 해결)
 ``` 
     
+### 3-2. 클래스형 컴포넌트 state 사용하기
+#### ./src/component/6.ClassComponentState.js
+```
+- constructor 메서드를 활용한 state 초기 값 설정
+- 생성자를 사용하지 않고 state 초기 값 설정하기
+```
+
     
