@@ -4,7 +4,34 @@
 
 # 정리 노트
 
+
+## 1. 리액트 시작
+
+### 작업 환경
+```
+OS : MacOS
+nvm (v0.33.2)
+node.js LTS (v12.14.1)
+Homebrew (v2.2.2)
+yarn (v1.21.1)
+```
+
+## 2. JSX
+
+#### ./src/App.js
+``` 
+ - js,css,html JSX에서 렌더링
+ - if문 대신 조건부 테스트
+ - 인라인 스타일링
+ - class(className) 사용
+```
+
+
+
 ## 1. 컴포넌트
+
+#### ./src/App2.js
+#### ./src/component
 
 ### 1-1. 클래스형 컴포넌트와 함수형 컴포넌트 / 어느 상황에서 함수형 컴포넌트를?
 
